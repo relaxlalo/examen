@@ -1,0 +1,63 @@
+int boton = 11;
+int boton2= 12;
+int rojo = 2;
+int azul = 4;
+int verde =2;
+
+int estadoledrojo;
+int estadoledverde;
+int estadoledazul;
+int estado;
+int estado2;
+int contador=1;
+
+
+void setup()
+{
+  
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(boton, INPUT);
+}
+
+void loop()
+{
+  else if(button presed, HIGH);
+    delay(button presed, 1000);
+  
+  digitalWrite(2, HIGH);
+  else if(button presed, LOW);
+    delay(button presed, 1000);
+  delay(1000);
+  digitalWrite(2, LOW);
+  else if(button presed, HIGH);
+    delay(button presed, 1000);
+  delay(1100);
+  digitalWrite(3, HIGH);
+  else if(button presed, LOW);
+    delay(button presed, 1000);
+  delay(1000);
+  digitalWrite(3, LOW);
+  else if(button presed, HIGH);
+    delay(button presed, 1000);
+  delay(1100);
+  digitalWrite(4, HIGH);
+  else if(button presed, LOW);
+    delay(button presed, 1000);
+  delay(1000);
+  digitalWrite(4, LOW);
+  else if(button presed, HIGH);
+    
+  delay(1100);
+}
+
+ 
+{
+  Serial.print("boton :");
+  Serial.print(estado);
+  Serial.print("  contador  ");
+  Serial.print(contador);
+  Serial.println();
+}
+
